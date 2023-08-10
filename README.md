@@ -1,2 +1,2 @@
 # DocuChat
-chat with your your documents.
+chat with your documents.

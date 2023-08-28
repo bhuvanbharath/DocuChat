@@ -94,7 +94,7 @@ def main():
                 vector_store = get_vector_store(text_chunks)
 
                 # create conversation chain
-                #st.session_state.conversation = get_conversation_chain(vector_store)
+                st.session_state.conversation = get_conversation_chain(vector_store)
 
 
 if __name__ == "__main__":

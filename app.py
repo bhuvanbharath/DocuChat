@@ -78,22 +78,22 @@ def main():
         if st.button("Process"):
             with st.spinner("Processing"):
                 # get the pdf's text
-                pdf_text = get_pdf_text(raw_docs)
+                #pdf_text = get_pdf_text(raw_docs)
                 # with open("extracted.txt", 'w', encoding="utf-8") as file:
                 #     file.write(pdf_text)
 
                 # chunk the text
-                text_chunks = get_text_chunks(pdf_text)
+                #text_chunks = get_text_chunks(pdf_text)
                 # with open("chunks.txt", 'w', encoding="utf-8") as file:
                 #     for chunk in text_chunks:
                 #         file.write(chunk)
                         #file.write("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
                 # create a vector store
-                vector_store = get_vector_store(text_chunks)
+                #vector_store = get_vector_store(text_chunks)
 
                 # create conversation chain
-                st.session_state.conversation = get_conversation_chain(vector_store)
+                #st.session_state.conversation = get_conversation_chain(vector_store)
 
 
 if __name__ == "__main__":

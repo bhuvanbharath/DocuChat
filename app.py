@@ -83,7 +83,7 @@ def main():
                 #     file.write(pdf_text)
 
                 # chunk the text
-                #text_chunks = get_text_chunks(pdf_text)
+                text_chunks = get_text_chunks(pdf_text)
                 # with open("chunks.txt", 'w', encoding="utf-8") as file:
                 #     for chunk in text_chunks:
                 #         file.write(chunk)

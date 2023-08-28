@@ -78,7 +78,7 @@ def main():
         if st.button("Process"):
             with st.spinner("Processing"):
                 # get the pdf's text
-                #pdf_text = get_pdf_text(raw_docs)
+                pdf_text = get_pdf_text(raw_docs)
                 # with open("extracted.txt", 'w', encoding="utf-8") as file:
                 #     file.write(pdf_text)
 
